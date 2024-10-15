@@ -1,4 +1,3 @@
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
@@ -6,6 +5,7 @@ metadata:
   description: Create a starter Node.js backend application with a CI pipeline
   annotations:
     tektonci/build-namespace: demo-dev
+    janus-idp.io/tekton: nodejs-intive-app14
     backstage.io/kubernetes-namespace: demo-dev
     backstage.io/kubernetes-id: nodejs-intive-app14
     argocd/app-name: nodejs-intive-app14
